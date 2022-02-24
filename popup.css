@@ -1,0 +1,43 @@
+.container {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #3A969B;
+  border-radius: 8px;
+  padding-bottom: 8px;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+}
+
+.title {
+  margin-top: 8px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  margin: 4px;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: white;
+  outline: none;
+  text-align: center;
+}
+
+span {
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.selected {
+  background-color: coral;
+  color: white;
+}
